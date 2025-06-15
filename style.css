@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+h1{font-family: Arial; color:rgb(14, 138, 117); text-align: center;}
+body{background-color: aqua; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: Arial, sans-serif;}
+button{aspect-ratio: 1/1;width: 50px; color: #333; text-align: center; cursor: pointer; background-color: #f0f8ff; border: 2px solid black; font-weight: bold; font-size: 20px; font-family: Comic Sans MS, cursive; margin: 4px;}
+.myInput{resize: none; width: 305px; height: 80px;; font-size: 30px; }
+.on{background-color: #00cc99;}
+.delete{background-color: #ff6666;}
+.history{background-color: #3399ff;}
+.calculator {
+  background-color: rgb(92, 201, 209);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 350px;
+  width: 90vw;
+}

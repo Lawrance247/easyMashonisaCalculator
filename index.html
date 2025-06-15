@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mental Maths</title>
+        <link rel = "stylesheet" href="style.css">
+
+    </head>
+    <body>
+         
+        <div class ="calculator">
+            <h1>Easy Mashonisa</h1>
+            <textarea  class="myInput" id="display"></textarea>
+
+            <div>
+                <button class="on" onclick="clearScreen()">⏻</button>
+                <button onclick="moveToLeft()">⬅️</button>
+                <button class="delete" onclick="deletor()">Del</button>
+                <button onclick="moveToRight()">➡️</button>
+                <button class="history" onclick="showHistory()">Hist</button>
+                
+                
+            </div>
+            <div>
+                <button onclick="press('.')">.</button>
+                <button onclick="press('/')">÷</button>
+                <button onclick="press('*')">×</button>
+                <button onclick="press('-')">-</button>
+                <button onclick="press('+')">+</button>
+            </div>
+            <div>
+                <button onclick="press('5')">5</button>
+                <button onclick="press('6')">6</button>
+                <button onclick="press('7')">7</button>
+                <button onclick="press('8')">8</button>
+                <button onclick="press('9')">9</button>
+            </div>
+            <div>
+                <button onclick="press('4')">4</button>
+                <button onclick="press('3')">3</button>
+                <button onclick="press('2')">2</button>
+                <button onclick="press('1')">1</button>
+                <button onclick="press('0')">0</button>
+                
+            </div>
+            <div>
+                <button onclick="press('%')">%</button>
+                <button onclick="press('^')">^</button>
+                <button onclick="press('(')">(</button>
+                <button onclick="press(')')">)</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
